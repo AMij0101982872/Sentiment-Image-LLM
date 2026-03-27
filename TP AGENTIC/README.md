@@ -21,6 +21,15 @@ Le système analyse les avis clients en se concentrant sur des aspects spécifiq
   "category": ["screen", "keyboard", "pad"],
   "polarity": ["positive", "negative", "neutral"]
 }
+
+### 2. Génération d’Images
+Création d'images à partir de descriptions textuelles via le modèle `gpt-4o-mini` avec des outils de génération d'image intégrés.
+
+```python
+resp = llm_with_tools.invoke([
+    SystemMessage(content=""),
+    HumanMessage(content="je veux une image de Neymar junior da silva au Brasil")
+])
 2. Génération d’Images
 Création d'images à partir de descriptions textuelles via le modèle gpt-4o-mini avec des outils de génération d'image intégrés.
 resp = llm_with_tools.invoke([
