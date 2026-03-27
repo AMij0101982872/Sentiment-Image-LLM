@@ -77,21 +77,11 @@ resp = llm5.invoke([
 
 ##  Installation
 
-1. **Cloner le dépôt :**
-```bash
-git clone https://github.com/votre-utilisateur/AI-Sentiment-Image.git
-cd AI-Sentiment-Image
-```
 
-2. **Installer les dépendances :**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Configurer les variables d'environnement** — créer un fichier `.env` à la racine :
+1. **Configurer les variables d'environnement** — créer un fichier `.env` à la racine :
 ```env
-OPENAI_API_KEY=your_openai_api_key
-OLLAMA_API_KEY=your_ollama_api_key
+OPENAI_API_KEY=openai_api_key
+OLLAMA_API_KEY=ollama_api_key
 ```
 
 ---
