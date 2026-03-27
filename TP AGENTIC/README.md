@@ -167,22 +167,11 @@ print(sentiment['polarity'])
 
 ## Installation
 
-1. Cloner le depot :
-```bash
-git clone https://github.com/votre-utilisateur/AI-Sentiment-Image.git
-cd AI-Sentiment-Image
-```
-
-2. Installer les dependances :
-```bash
-pip install -r requirements.txt
-```
-
-3. Creer un fichier `.env` a la racine du projet :
+1. Creer un fichier `.env` a la racine du projet :
 ```env
-OPENAI_API_KEY=your_openai_api_key
-OLLAMA_API_KEY=your_ollama_api_key
-GROQ_API_KEY=your_groq_api_key
+OPENAI_API_KEY=openai_api_key
+OLLAMA_API_KEY=ollama_api_key
+GROQ_API_KEY=groq_api_key
 ```
 
 ---
@@ -205,10 +194,6 @@ GROQ_API_KEY=your_groq_api_key
 ## Auteur
 
 Ake Mobio Ivan Junior  
-Stagiaire en base de donnees — passionne par l'IA agentique
 
 ---
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de details.
